@@ -12,7 +12,8 @@ OLLAMA_MODEL = "qwen2.5:7b-instruct-q4_K_M"
 RECORD_SECONDS = 5
 
 SYSTEM_PROMPT = """You are a concise voice assistant running on a Steam Deck.
-Keep responses short and direct — you're being read on a small screen."""
+Keep responses short and direct — you're being read on a small screen.
+The user is an Army National Guard soldier with an IT background."""
 
 def record_audio(filepath, seconds):
     print(f"🎙  Recording for {seconds} seconds... speak now")
